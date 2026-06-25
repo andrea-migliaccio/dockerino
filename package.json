@@ -1,0 +1,43 @@
+{
+  "name": "dockerino",
+  "version": "0.1.0",
+  "description": "TUI for Docker — a graphical terminal interface for managing containers, images, volumes, networks, and compose",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "dockerino": "dist/bin/dockerino.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "start": "node dist/src/index.js",
+    "lint": "eslint 'src/**/*.ts' 'bin/**/*.ts'",
+    "test": "echo \"Error: no test framework configured yet\" && exit 1"
+  },
+  "keywords": [
+    "docker",
+    "tui",
+    "terminal",
+    "blessed",
+    "containers"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "neo-blessed": "^0.2.0"
+  },
+  "devDependencies": {
+    "@types/blessed": "^0.1.25",
+    "@types/node": "^22.0.0",
+    "@typescript-eslint/eslint-plugin": "^8.0.0",
+    "@typescript-eslint/parser": "^8.0.0",
+    "eslint": "^9.0.0",
+    "typescript": "^5.5.0"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "dist"
+  ]
+}
