@@ -2,9 +2,9 @@
 
 A **Terminal User Interface (TUI)** for Docker. Manage containers, images, and volumes from a beautiful interactive terminal dashboard — no GUI needed.
 
-![License](https://img.shields.io/github/license/andrea/dockerino)
-![npm](https://img.shields.io/npm/v/dockerino)
-![Node](https://img.shields.io/node/v/dockerino)
+![License](https://img.shields.io/github/license/andrea-migliaccio/dockerino)
+![npm](https://img.shields.io/npm/v/@mytinyapps/dockerino)
+![Node](https://img.shields.io/node/v/@mytinyapps/dockerino)
 
 ## Features
 
@@ -23,7 +23,7 @@ A **Terminal User Interface (TUI)** for Docker. Manage containers, images, and v
 Run directly without installing:
 
 ```bash
-npx dockerino
+npx @mytinyapps/dockerino
 ```
 
 ## Installation
@@ -31,7 +31,7 @@ npx dockerino
 Or install globally:
 
 ```bash
-npm install -g dockerino
+npm install -g @mytinyapps/dockerino
 ```
 
 ## Requirements
@@ -84,7 +84,7 @@ dockerino
 ## Development
 
 ```bash
-git clone https://github.com/andrea/dockerino.git
+git clone https://github.com/andrea-migliaccio/dockerino.git
 cd dockerino
 npm install
 npm run build

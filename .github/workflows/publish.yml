@@ -25,6 +25,9 @@ jobs:
       - name: Build
         run: npm run build
 
+      - name: Ensure bin is executable
+        run: chmod +x dist/bin/dockerino.js
+
       - name: Publish
         run: npm publish --provenance --access public
         env:
