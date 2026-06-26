@@ -1,5 +1,5 @@
 {
-  "name": "dockerino",
+  "name": "@tinyapps/dockerino",
   "version": "0.1.0",
   "description": "TUI for Docker — a graphical terminal interface for managing containers, images, volumes, networks, and compose",
   "type": "module",
@@ -21,8 +21,11 @@
     "blessed",
     "containers"
   ],
-  "author": "",
+  "author": "andrea.m.ig",
   "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
     "neo-blessed": "^0.2.0"
   },
