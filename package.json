@@ -1,6 +1,6 @@
 {
-  "name": "@tinyapps/dockerino",
-  "version": "0.1.0",
+  "name": "@mytinyapps/dockerino",
+  "version": "0.3.0",
   "description": "TUI for Docker — a graphical terminal interface for managing containers, images, volumes, networks, and compose",
   "type": "module",
   "main": "dist/index.js",
