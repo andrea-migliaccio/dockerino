@@ -1,6 +1,6 @@
 {
   "name": "@mytinyapps/dockerino",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "description": "TUI for Docker — a graphical terminal interface for managing containers, images, volumes, networks, and compose",
   "type": "module",
   "main": "dist/index.js",
@@ -21,6 +21,10 @@
     "blessed",
     "containers"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andrea-migliaccio/dockerino"
+  },
   "author": "andrea.m.ig",
   "license": "MIT",
   "publishConfig": {
