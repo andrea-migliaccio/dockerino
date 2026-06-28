@@ -3,8 +3,11 @@
 A **Terminal User Interface (TUI)** for Docker. Manage containers, images, and volumes from a beautiful interactive terminal dashboard — no GUI needed.
 
 ![License](https://img.shields.io/github/license/andrea-migliaccio/dockerino)
-![npm](https://img.shields.io/npm/v/@mytinyapps/dockerino)
 ![Node](https://img.shields.io/node/v/@mytinyapps/dockerino)
+
+## Screenshot
+
+![Dockerino TUI](img/dockerino.png)
 
 ## Features
 
